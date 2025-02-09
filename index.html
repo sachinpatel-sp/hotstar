@@ -5,7 +5,7 @@
     <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
 </head>
 
-
+<!-- doesn't work -->
 <body>
 
 <video
@@ -25,7 +25,7 @@
     var player = videojs('video_player')
 
     player.responsive(true);
-
+// cors error
     player.ready(function() {
         player.src({
             src: 'https://hssportsprepack.akamaized.net/videos/kabaddi/pkl2022/vod/1540016899/in/eng/v2/hls/plain/master.m3u8?hdnea=st=1662811310~exp=1662811910~acl=/videos/kabaddi/pkl2022/vod/1540016899/in/eng/v2/hls/plain/*~data=ip=r5C4KllMBbkJtmWYbHIEeV-userid=MifcMw8CHSVco7ycxEqcbEIS4J1YCBC6c9pyS7s4exNY-did=4gi9f84Ek3iatYvKhaULusJ5mHTHPESdQvmvSPHRkne2VpwZyAP1O1z-cc=in-~hmac=db291c2690e0c99a3185f1449d298fc7023770213bdaf5ed17f7077326de86c7',
